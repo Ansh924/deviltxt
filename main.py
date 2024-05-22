@@ -3,6 +3,7 @@ import urllib.parse
 import requests
 import json
 import subprocess
+from pyrogram import filters
 from pyrogram.types.messages_and_media import message
 from config import Config
 from pyromod import listen
