@@ -4,7 +4,7 @@ import requests
 import json
 import subprocess
 from pyrogram.types.messages_and_media import message
-import helper
+from config import Config
 from pyromod import listen
 from pyrogram.types import Message
 import tgcrypto
@@ -29,7 +29,7 @@ from base64 import b64encode, b64decode
 
 bot = Client(
     "bot",
-    api_id=Config.APP_ID,
+    api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN)
     
