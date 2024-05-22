@@ -39,7 +39,7 @@ async def account_login(bot: Client, m: Message):
     editable = await m.reply_text("Hello /cp")
         
     
-@bot.on_message(filters.command(["cp"]) & ~filters.edited)
+@bot.on_message(filters.command(["cp"]))
 async def account_login(bot: Client, m: Message):
     global cancel
     cancel = False
