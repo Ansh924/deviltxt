@@ -16,7 +16,6 @@ from pyrogram.errors import FloodWait
 import time
 from pyrogram import Client as bot
 from pyrogram.types import User, Message
-from p_bar import progress_bar
 from subprocess import getstatusoutput
 import logging
 import os
